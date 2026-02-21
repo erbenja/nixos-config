@@ -33,6 +33,7 @@ with pkgs; [
 
   # Node.js development tools
   nodejs_24
+  nodejs_20
 
   # Text and terminal utilities
   htop
@@ -47,17 +48,11 @@ with pkgs; [
   # Development tools
   curl
   gh
-  terraform
-  kubectl
-  awscli2
   lazygit
   fzf
   direnv
   
   # Programming languages and runtimes
-  go
-  rustc
-  cargo
   openjdk
 
   # Python packages
